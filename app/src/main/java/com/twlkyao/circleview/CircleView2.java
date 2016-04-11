@@ -11,24 +11,24 @@ import android.view.View;
 /**
  * Created by steveqi on 2016/4/11.
  */
-public class CircleView extends View {
+public class CircleView2 extends View {
 
     private int mColor = Color.RED;
     private Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-    public CircleView(Context context) {
+    public CircleView2(Context context) {
        this(context,null);
     }
 
-    public CircleView(Context context, AttributeSet attrs) {
+    public CircleView2(Context context, AttributeSet attrs) {
         this(context,attrs,0);
     }
 
-    public CircleView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CircleView2(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        TypedArray a= context.obtainStyledAttributes(attrs, R.styleable.CircleView);
+        TypedArray a= context.obtainStyledAttributes(attrs, R.styleable.CircleView2);
 //        the styleable name diviede by underline.
-        mColor = a.getColor(R.styleable.CircleView_circleColor, Color.GREEN);
+        mColor = a.getColor(R.styleable.CircleView2_circle_color, Color.GREEN);
         a.recycle();
         init();
     }

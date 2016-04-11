@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--attr name can be upper or divied by underline.-->
+<resources>
+    <declare-styleable name="CircleView2">
+        <attr name="circle_color" format="color" />
+    </declare-styleable>
+</resources>
