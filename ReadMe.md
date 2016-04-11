@@ -1,0 +1,1 @@
+A demo to define your own view, and define some attributes.
